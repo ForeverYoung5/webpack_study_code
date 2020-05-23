@@ -1,0 +1,372 @@
+{
+  "errors": [
+    "./src/preloading/index.js\nModule build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\src\\preloading\\index.js: 'import' and 'export' may only appear at the top level (2:3)\n\n  1 | document.addEventListener('click',()=>{\n> 2 |    import handleClick from('./handleClick').then((func)=>{\n    |    ^\n  3 |        func()\n  4 |    })\n  5 | })\n    at Parser._raise (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:742:17)\n    at Parser.raiseWithData (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:735:17)\n    at Parser.raise (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:729:17)\n    at Parser.parseStatementContent (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:11195:18)\n    at Parser.parseStatement (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:11104:17)\n    at Parser.parseBlockOrModuleBlockBody (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:11679:25)\n    at Parser.parseBlockBody (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:11665:10)\n    at Parser.parseBlock (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:11649:10)\n    at Parser.parseFunctionBody (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:10656:24)\n    at Parser.parseArrowExpression (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:10625:10)\n    at Parser.parseParenAndDistinguishExpression (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:10243:12)\n    at Parser.parseExprAtom (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:9969:21)\n    at Parser.parseExprSubscripts (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:9624:23)\n    at Parser.parseMaybeUnary (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:9604:21)\n    at Parser.parseExprOps (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:9474:23)\n    at Parser.parseMaybeConditional (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:9447:23)\n    at Parser.parseMaybeAssign (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:9402:21)\n    at Parser.parseExprListItem (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:10740:18)\n    at Parser.parseCallExpressionArguments (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:9812:22)\n    at Parser.parseSubscript (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:9718:31)\n    at Parser.parseSubscripts (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:9647:19)\n    at Parser.parseExprSubscripts (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:9630:17)\n    at Parser.parseMaybeUnary (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:9604:21)\n    at Parser.parseExprOps (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:9474:23)\n    at Parser.parseMaybeConditional (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:9447:23)\n    at Parser.parseMaybeAssign (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:9402:21)\n    at Parser.parseExpression (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:9354:23)\n    at Parser.parseStatementContent (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:11233:23)\n    at Parser.parseStatement (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:11104:17)\n    at Parser.parseBlockOrModuleBlockBody (D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\@babel\\parser\\lib\\index.js:11679:25)"
+  ],
+  "warnings": [],
+  "version": "4.43.0",
+  "hash": "d96b25da573e8bf24258",
+  "time": 331,
+  "builtAt": 1588722404415,
+  "publicPath": "",
+  "outputPath": "D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\dist",
+  "assetsByChunkName": {
+    "main": "main.js"
+  },
+  "assets": [
+    {
+      "name": "index.html",
+      "size": 215,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "main.js",
+      "size": 37416,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "main",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 4686,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "hash": "3fa90a0be440f115c6a3",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./src/preloading/index.js",
+          "identifier": "D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\src\\preloading\\index.js",
+          "name": "./src/preloading/index.js",
+          "index": 0,
+          "index2": 0,
+          "size": 4686,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 101,
+            "building": 180
+          },
+          "failed": true,
+          "errors": 1,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/preloading/index.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nSyntaxError: D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\src\\\\preloading\\\\index.js: 'import' and 'export' may only appear at the top level (2:3)\\n\\n  1 | document.addEventListener('click',()=>{\\n> 2 |    import handleClick from('./handleClick').then((func)=>{\\n    |    ^\\n  3 |        func()\\n  4 |    })\\n  5 | })\\n    at Parser._raise (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:742:17)\\n    at Parser.raiseWithData (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:735:17)\\n    at Parser.raise (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:729:17)\\n    at Parser.parseStatementContent (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11195:18)\\n    at Parser.parseStatement (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11104:17)\\n    at Parser.parseBlockOrModuleBlockBody (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11679:25)\\n    at Parser.parseBlockBody (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11665:10)\\n    at Parser.parseBlock (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11649:10)\\n    at Parser.parseFunctionBody (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:10656:24)\\n    at Parser.parseArrowExpression (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:10625:10)\\n    at Parser.parseParenAndDistinguishExpression (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:10243:12)\\n    at Parser.parseExprAtom (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9969:21)\\n    at Parser.parseExprSubscripts (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9624:23)\\n    at Parser.parseMaybeUnary (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9604:21)\\n    at Parser.parseExprOps (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9474:23)\\n    at Parser.parseMaybeConditional (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9447:23)\\n    at Parser.parseMaybeAssign (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9402:21)\\n    at Parser.parseExprListItem (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:10740:18)\\n    at Parser.parseCallExpressionArguments (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9812:22)\\n    at Parser.parseSubscript (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9718:31)\\n    at Parser.parseSubscripts (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9647:19)\\n    at Parser.parseExprSubscripts (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9630:17)\\n    at Parser.parseMaybeUnary (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9604:21)\\n    at Parser.parseExprOps (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9474:23)\\n    at Parser.parseMaybeConditional (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9447:23)\\n    at Parser.parseMaybeAssign (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9402:21)\\n    at Parser.parseExpression (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9354:23)\\n    at Parser.parseStatementContent (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11233:23)\\n    at Parser.parseStatement (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11104:17)\\n    at Parser.parseBlockOrModuleBlockBody (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11679:25)\");"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/preloading/index.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "./src/preloading/index.js",
+      "identifier": "D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\src\\preloading\\index.js",
+      "name": "./src/preloading/index.js",
+      "index": 0,
+      "index2": 0,
+      "size": 4686,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 101,
+        "building": 180
+      },
+      "failed": true,
+      "errors": 1,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/preloading/index.js",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nSyntaxError: D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\src\\\\preloading\\\\index.js: 'import' and 'export' may only appear at the top level (2:3)\\n\\n  1 | document.addEventListener('click',()=>{\\n> 2 |    import handleClick from('./handleClick').then((func)=>{\\n    |    ^\\n  3 |        func()\\n  4 |    })\\n  5 | })\\n    at Parser._raise (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:742:17)\\n    at Parser.raiseWithData (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:735:17)\\n    at Parser.raise (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:729:17)\\n    at Parser.parseStatementContent (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11195:18)\\n    at Parser.parseStatement (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11104:17)\\n    at Parser.parseBlockOrModuleBlockBody (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11679:25)\\n    at Parser.parseBlockBody (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11665:10)\\n    at Parser.parseBlock (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11649:10)\\n    at Parser.parseFunctionBody (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:10656:24)\\n    at Parser.parseArrowExpression (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:10625:10)\\n    at Parser.parseParenAndDistinguishExpression (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:10243:12)\\n    at Parser.parseExprAtom (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9969:21)\\n    at Parser.parseExprSubscripts (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9624:23)\\n    at Parser.parseMaybeUnary (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9604:21)\\n    at Parser.parseExprOps (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9474:23)\\n    at Parser.parseMaybeConditional (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9447:23)\\n    at Parser.parseMaybeAssign (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9402:21)\\n    at Parser.parseExprListItem (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:10740:18)\\n    at Parser.parseCallExpressionArguments (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9812:22)\\n    at Parser.parseSubscript (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9718:31)\\n    at Parser.parseSubscripts (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9647:19)\\n    at Parser.parseExprSubscripts (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9630:17)\\n    at Parser.parseMaybeUnary (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9604:21)\\n    at Parser.parseExprOps (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9474:23)\\n    at Parser.parseMaybeConditional (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9447:23)\\n    at Parser.parseMaybeAssign (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9402:21)\\n    at Parser.parseExpression (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9354:23)\\n    at Parser.parseStatementContent (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11233:23)\\n    at Parser.parseStatement (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11104:17)\\n    at Parser.parseBlockOrModuleBlockBody (D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:11679:25)\");"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\dist",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0"
+      },
+      "assets": [
+        {
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 5863,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": "HtmlWebpackPlugin_0",
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 472,
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "hash": "4b5efa887de9549478b2",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/fonts/index.html",
+              "identifier": "D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\src\\fonts\\index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/fonts/index.html",
+              "index": 0,
+              "index2": 0,
+              "size": 472,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "HtmlWebpackPlugin_0"
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 27,
+                "building": 20
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\src\\fonts\\index.html",
+                  "loc": "HtmlWebpackPlugin_0"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "var _ = __non_webpack_require__(\"D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n\\r\\n<head>\\r\\n    <meta charset=\"UTF-8\">\\r\\n    <title>Title</title>\\r\\n    <style></style>\\r\\n</head>\\r\\n\\r\\n<body>\\r\\n    <div id=\"root\"></div>\\r\\n</body>\\r\\n\\r\\n</html>';\nreturn __p\n})();}}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\src\\fonts\\index.html",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/fonts/index.html",
+          "identifier": "D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\src\\fonts\\index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/fonts/index.html",
+          "index": 0,
+          "index2": 0,
+          "size": 472,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 27,
+            "building": 20
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\node_modules\\html-webpack-plugin\\lib\\loader.js!D:\\Java\\apache-tomcat-8.5.50\\webapps\\webpack_demo\\src\\fonts\\index.html",
+              "loc": "HtmlWebpackPlugin_0"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "var _ = __non_webpack_require__(\"D:\\\\Java\\\\apache-tomcat-8.5.50\\\\webapps\\\\webpack_demo\\\\node_modules\\\\lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n\\r\\n<head>\\r\\n    <meta charset=\"UTF-8\">\\r\\n    <title>Title</title>\\r\\n    <style></style>\\r\\n</head>\\r\\n\\r\\n<body>\\r\\n    <div id=\"root\"></div>\\r\\n</body>\\r\\n\\r\\n</html>';\nreturn __p\n})();}}"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "HtmlWebpackCompiler"
+    }
+  ]
+}

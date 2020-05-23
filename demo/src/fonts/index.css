@@ -1,0 +1,26 @@
+@font-face {font-family: "iconfont";
+    src: url('./font/iconfont.eot?t=1588568351173'); /* IE9 */
+    src: url('./font/iconfont.eot?t=1588568351173#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOYAAsAAAAAB9gAAANKAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDRIMOATYCJAMMCwgABCAFhG0HNBvSBhEVnB/IPhLTLRZ3krdypGImCMgtm4XNPQHiqi9i7aV8MynFpXJps7VpxzYqQrEk58F3eUb+N+FCus7X6SpVIStk/+dwaWNbPPa3LLc5tkW9AOOAAtob22QdyB0Q3yK7PfEZi7wMAej4E4soLa9tRUNCZwlATBo/djhaxohsqBRoCCwVGyViKTZoyjzlFrAk+HnxhWShgYKNCl3YOKZsFIXvv7z/oVoHrfR6CETj2QFhG6hALCBB9Fc6O1GjZCwquqaUzYUWJAJlrMjgIARCXW1Z6T+eAsICLTcBiCQK5aREDg8C3v8QEAqgTrcA9sBy4ChgXYdZ0MKlaUppZ0eONaXt3AX7vNo64ipXrYO1p0J1dGHCAH33GSEGNnhUJ9T86oYDxnR7HKYs2LXOunanvnv/wIGRyapus9WhHV2MVdae0vX5fZrORjjsOg3WbL632qpjjHSKJiw47aWYo645a9g9ftz26FHrkyftT5/WPvnkPev9BQ8HHhw76/qf6+6WhB+Ou/bZ8aaectSnNrP2Z21Gre/SVu+bji+uxZ0pCYfjR/x3U9tXX1sds8rI3u6+I9tgTMiYp5jRKVK0+ZB31cz6h06bd+XfzefzBIwUn3O+Kb7nfFKORh/lYgbjC85Rw/izrmJ8Vk3N4BsldHdTQkl3V4mw7F1dwvd3dV/OR022PTttdNOYpvamNoZBp6oblXMAarvy5P/9DW/f7Zs01CH3386QALx4fCEg0EtwbtDuziXgb4mQbVKXUJMqVaEjNDMq1WjvohQdHfhH1QDOvOmvdkOTQajdElAYgh+oaIQiJTYWbDBIBQsaBaBLiaHebuACs0RIWyCaN4DAkQ8o2HMWVBz5IiX2Bza48wcLjmIJOu3C5UCDcGEPJYyNYA/tC2xHg7Itcggrj6hvoeG0JGBekScbgTzJ8pkaB+Qxlkx3XYgoUEwRKrgOQyAYmRx2khiRsUxTVfWhpKM4O1ACgzQISA/Q8gKwdBADyusuHArfP4JobgQauKGlxn8FYSZs/0BOQoZA1soB1XItt0zc0RQIggJQMEQEqMCOBCtJAGP1OAfSISSYHvGRkpTppLDKZH51fL49gA49RRWKUIVEDr8JLYeHMJsBAAA=') format('woff2'),
+    url('./font/iconfont.woff?t=1588568351173') format('woff'),
+    url('./font/iconfont.ttf?t=1588568351173') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('./font/iconfont.svg?t=1588568351173#iconfont') format('svg'); /* iOS 4.1- */
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-auto:before {
+    content: "\e6eb";
+  }
+  
+  .icon-all:before {
+    content: "\e6ef";
+  }
+  
+  
